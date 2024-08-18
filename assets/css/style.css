@@ -13,6 +13,10 @@
   --rosa: #be00bb;
   --rosa-claro: #f78bff;
   --lilás: #6702ec;
+  --cinza: #3a393a;
+--roxo-claro: #b453c1;
+  --roxo-escuro: #2f0b3a;
+
 
   --safety-orange: #c1a1f9;
   --lavender-gray: #f7f5f7;
@@ -32,7 +36,7 @@
    * gradient color
    */
 
-  --gradient: linear-gradient(to left top, var(--persian-rose), var(--safety-orange));
+  --gradient: linear-gradient(to left top, var(--rosa-claro), var(--roxo-claro));
 
   /**
    * typography
@@ -326,7 +330,7 @@ body {
 
 
 /*-----------------------------------*\
-  #HEO
+  #HERO
 \*-----------------------------------*/
 
 .hero {
@@ -411,7 +415,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--black);
+  background-color: var(--preto);
   opacity: 0.5;
   transition: var(--transition-2);
 }
@@ -431,13 +435,13 @@ body {
 .project-card:is(:hover, :focus-within) .card-content { transform: translateY(-20px); }
 
 .project-card .card-subtitle {
-  color: var(--lavender-gray);
+  color: var(--branco);
   font-size: var(--fs-6);
   line-height: 1;
 }
 
 .project-card .card-title {
-  color: var(--white-1);
+  color: var(--safety-orange);
   margin-block: 12px 15px;
 }
 
