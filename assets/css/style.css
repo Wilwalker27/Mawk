@@ -267,10 +267,13 @@ body {
 
 .logo {
   font-family: var(--ff-league-spartan);
-  color: var(--black);
-  font-size: 3.5rem;
+  color: var(--branco);
+  font-size: 3.3rem;
   font-weight: var(--fw-700);
   line-height: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-toggle-btn { font-size: 40px; }
@@ -453,7 +456,7 @@ body {
   #ABOUT
 \*-----------------------------------*/
 
-.about { background-color: var(--white-2); }
+.about { background-color: var(--preto); }
 
 .about-banner {
   position: relative;
@@ -462,6 +465,16 @@ body {
   margin-block-end: 25px;
 }
 
+.h2-section-title{
+  color: rgb(157, 56, 183);
+  font-size: 380%;
+  font-family: var(--ff-league-spartan);
+}
+.h3-fonte{
+  color: rgb(157, 56, 183);
+  font-size: 180%;
+  font-family: var(--ff-league-spartan);
+}
 .play-btn {
   position: absolute;
   top: 50%;
@@ -497,7 +510,7 @@ body {
 }
 
 .about-item ion-icon {
-  color: var(--red-crayola);
+  color: rgb(157, 56, 183);
   flex-shrink: 0;
   margin-block-start: 2px;
 }
@@ -556,7 +569,7 @@ body {
 
 .blog .section-text { margin-block: 5px 35px; }
 
-.blog-card { background-color: var(--white-2); }
+.blog-card { background-color: var(--roxo-escuro); }
 
 .blog-card .card-banner { overflow: hidden; }
 
